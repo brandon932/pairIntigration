@@ -8,5 +8,5 @@ Services: mongodb
 before_script:
   -npm install -g mocha
   -npm install -g chai
-  -npm install -g chai-http
+  # -npm install -g chai-http
 Script: mocha
