@@ -5,6 +5,7 @@ node_js:
   - "0.12"
   - "0.11"
 Services: mongodb
+
 before_script:
-  -npm install -g mocha
+  - npm install -g mocha
 Script: mocha

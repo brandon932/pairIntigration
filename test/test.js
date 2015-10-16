@@ -18,7 +18,7 @@ describe('Blobs', function() {
     chai.request(server)
     .get('/')
     .end(function(err, res){
-      res.should.have.status(404);
+      res.should.have.status(200);
       done();
     });
   });
